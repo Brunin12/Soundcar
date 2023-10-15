@@ -9,9 +9,6 @@ import {
   CCardText,
   CCardTitle,
   CCol,
-  CToast,
-  CToastBody,
-  CToastHeader,
   CRow,
 } from '@coreui/react'
 import img from '../../assets/images/img.jpg'

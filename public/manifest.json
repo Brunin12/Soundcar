@@ -3,12 +3,12 @@
   "name": "Sound'Car",
   "icons": [
     {
-      "src": "./assets/site/icon2.png",
+      "src": "../assets/site/icon2.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "./assets/site/icon.png",
+      "src": "../assets/site/icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }

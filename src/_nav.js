@@ -1,6 +1,6 @@
 import React from 'react'
 import CIcon from '@coreui/icons-react'
-import { cibWhatsapp, cilPhone, cibGmail, cilDescription, cilHome } from '@coreui/icons'
+import { cibWhatsapp, cilPhone, cibGmail, cilHome, cibGithub, cibLinkedin } from '@coreui/icons'
 import { CNavItem, CNavTitle } from '@coreui/react'
 
 const _nav = [
@@ -44,7 +44,14 @@ const _nav = [
     name: 'GitHub',
     target: '_blank',
     href: 'https://github.com/Brunin12',
-    icon: <CIcon icon={cilDescription} customClassName="nav-icon" />,
+    icon: <CIcon icon={cibGithub} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
+    name: 'LinkedIn',
+    target: '_blank',
+    href: 'https://www.linkedin.com/company/100754388/',
+    icon: <CIcon icon={cibLinkedin} customClassName="nav-icon" />,
   },
 ]
 

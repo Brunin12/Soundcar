@@ -14,7 +14,6 @@ const DefaultLayout = React.lazy(() => import('./layout/DefaultLayout'))
 // Pages
 const Page404 = React.lazy(() => import('./views/pages/page404/Page404'))
 const Page500 = React.lazy(() => import('./views/pages/page500/Page500'))
-const Home = React.lazy(() => import('./views/home/Home'))
 
 class App extends Component {
   render() {
@@ -24,7 +23,6 @@ class App extends Component {
           <Routes>
             <Route exact path="/404" name="Page 404" element={<Page404 />} />
             <Route exact path="/500" name="Page 500" element={<Page500 />} />
-            <Route exact path="/home" name="Home" element={<Home />} />
             <Route path="*" name="Home" element={<DefaultLayout />} />
           </Routes>
         </Suspense>
