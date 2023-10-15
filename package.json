@@ -1,7 +1,7 @@
 {
-  "name": "@coreui/coreui-free-react-admin-template",
+  "name": "soundcar",
   "homepage": "Soundcar/",
-  "version": "4.5.0",
+  "version": "1.0.0",
   "description": "CoreUI Free React Admin Template",
   "bugs": {
     "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
