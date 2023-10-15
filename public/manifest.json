@@ -1,0 +1,20 @@
+{
+  "short_name": "Sound'Car",
+  "name": "Sound'Car",
+  "icons": [
+    {
+      "src": "./assets/site/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/site/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6400FF",
+  "background_color": "#FF6347"
+}
