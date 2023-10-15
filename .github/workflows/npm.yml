@@ -2,6 +2,8 @@ name: NPM Installation
 
 on:
   push:
+    branches:
+      - master
     branches-ignore:
       - "dependabot/**"
   schedule:
