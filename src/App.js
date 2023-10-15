@@ -17,7 +17,7 @@ class App extends Component {
       <HashRouter>
         <Suspense fallback={loading}>
           <Routes>
-            <Route path="*" name="Home" element={<DefaultLayout />} />
+            <Route path="*" name="home" element={<DefaultLayout />} />
           </Routes>
         </Suspense>
       </HashRouter>
