@@ -1,17 +1,10 @@
 {
   "name": "soundcar",
   "homepage": "Soundcar/",
-  "version": "1.0.0",
-  "description": "CoreUI Free React Admin Template",
-  "bugs": {
-    "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:coreui/coreui-free-react-admin-template.git"
-  },
+  "version": "3.0.1",
+  "description": "Site de contato da Sound'car",
   "license": "MIT",
-  "author": "The CoreUI Team (https://github.com/orgs/coreui/people)",
+  "author": "BrunoSoft",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build", 
@@ -19,6 +12,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.js\"",
     "start": "react-scripts start",
+    "publish": "node upload.js",
     "test": "react-scripts test",
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand"

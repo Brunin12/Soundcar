@@ -15,7 +15,7 @@ import img from '../../assets/images/img.jpg'
 import img2 from '../../assets/images/img2.jpg'
 import img3 from '../../assets/images/img3.jpg'
 import img4 from '../../assets/images/img4.jpg'
-import img5 from '../../assets/images/img5.jpg'
+import escritorio from '../../assets/images/escritorio.jpg'
 
 const Home = () => {
   return (
@@ -90,7 +90,7 @@ const Home = () => {
       <CRow>
         <CCol>
           <CCard className="p-1 m-2">
-            <CCardImage orientation="top" src={img5} />
+            <CCardImage orientation="top" src={escritorio} />
             <CCardBody>
               <CCardTitle>
                 <h1>Quem Somos?</h1>

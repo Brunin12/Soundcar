@@ -11,7 +11,7 @@ const _nav = [
     icon: <CIcon icon={cilHome} customClassName="nav-icon" />,
     badge: {
       color: 'info',
-      text: 'FUNÇÕES',
+      text: 'INFO',
     },
   },
   {
