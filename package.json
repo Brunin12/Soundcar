@@ -1,20 +1,8 @@
 {
   "name": "soundcar",
   "homepage": "Soundcar/",
-<<<<<<< HEAD
   "version": "3.0.1",
   "description": "Site de contato da Sound'car",
-=======
-  "version": "1.0.0",
-  "description": "CoreUI Free React Admin Template",
-  "bugs": {
-    "url": "O site da Sound'car é uma página simples que apresenta a empresa e seus serviços. A página principal apresenta um breve resumo da empresa, seus serviços e seus contatos. A página também inclui um formulário de contato para que os clientes possam entrar em contato com a empresa."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:coreui/coreui-free-react-admin-template.git"
-  },
->>>>>>> b2389829c298707382470ad4f36e791c78c4297b
   "license": "MIT",
   "author": "BrunoSoft",
   "scripts": {
