@@ -17,6 +17,22 @@ import img3 from '../../assets/images/img3.jpg'
 import img4 from '../../assets/images/img4.jpg'
 import escritorio from '../../assets/images/escritorio.jpg'
 
+const iframe = (
+  <iframe
+    src="https://gamma.app/embed/ai5fqp6qbw2w7rm"
+    // eslint-disable-next-line react/style-prop-object
+    style={{
+      width: '100%',
+      maxWidth: '100%',
+      height: '450px',
+      allowFullScreen: true,
+      borderRadius: '10px',
+    }}
+    allow="fullscreen"
+    title="Sound'car"
+  ></iframe>
+)
+
 const Home = () => {
   return (
     <>
@@ -114,6 +130,7 @@ const Home = () => {
                 preços competitivos. Entre em contato conosco hoje mesmo para saber mais sobre
                 nossos serviços. Aguardamos seu contato!
               </CCardText>
+              {iframe}
             </CCardBody>
           </CCard>
         </CCol>
